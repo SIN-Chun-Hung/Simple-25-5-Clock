@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Poppins", monospace, Arial, sans-serif, Helvetica;
+  background-color: LightSkyBlue;
+}
+
+#container {
+  background-color: #6495ED;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+  border: 1px solid SteelBlue;
+}
+
+.info {
+  text-align: center;
+  position: relative;
+  top: 6rem;
+}
+
+#clock-title {
+  font-size: 3.5rem;
+  text-decoration: underline;
+}
+
+#author {
+  font-family: "Caveat", "Poppins", monospace, Arial, sans-serif, Helvetica;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.time-control-container {
+  position: absolute;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.time-control-container span {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.time-control-container button {
+  background-color: #6495ED;
+  border: none;
+}
+
+#tcc1 {
+  top: 175px;
+  left: 50px;
+}
+
+#tcc2 {
+  top: 175px;
+  right: 50px;
+}
+
+#timer {
+  position: absolute;
+  width: 300px;
+  height: 120px;
+  background-color: #A9A9A9;
+  color: WhiteSmoke;
+  top: 270px;
+  left: 100px;
+  border-radius: 10px;
+  border: 3px solid SteelBlue;
+}
+#timer #timer-label {
+  font-size: 4rem;
+  text-align: right;
+  font-weight: bold;
+}
+#timer #time-left {
+  font-family: Orbitron, monospace, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 6rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#control-buttons {
+  text-align: center;
+  position: relative;
+  top: 65%;
+}
+#control-buttons #start_stop, #control-buttons #reset {
+  background-color: DeepSkyBlue;
+  border: none;
+  border-radius: 7px;
+  font-size: 2rem;
+  padding: 5px;
+}
+
+#start-stop {
+  margin-right: 3px;
+}
+
+#reset {
+  margin-left: 3px;
+}
